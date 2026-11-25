@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "Twenty-eight entries, zero dollars, and a signature form standing between me and payday.";
+  "Thirty entries, zero dollars, and a signature form standing between me and payday.";
 
 // The gate allows 1-100 characters; refuse to write an over-long text.
 if (line.length < 1 || line.length > 100) {
